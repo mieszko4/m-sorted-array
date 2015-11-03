@@ -1,5 +1,5 @@
 # m-sorted-array [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
-> 
+> Implementation of insert sort
 
 
 ## Install
@@ -12,9 +12,19 @@ $ npm install --save m-sorted-array
 ## Usage
 
 ```js
-var mSortedArray = require('m-sorted-array');
+var SortedArray = require('m-sorted-array');
 
-mSortedArray('Rainbow');
+var SortedArray = require('./lib');
+var sortedArray = SortedArray([8, 3, 2, 9, 1]);
+console.log(sortedArray.array); // [1, 2, 3, 8, 9]
+
+sortedArray.insert(5);
+console.log(sortedArray.array); // [1, 2, 3, 5, 8, 9]
+
+console.log(sortedArray.find(4)); // -1
+
+var strict = false;
+console.log(sortedArray.find(4, strict)); // 3
 ```
 
 ## License
