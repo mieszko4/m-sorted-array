@@ -13,6 +13,18 @@ describe('m-sorted-array', function () {
     assert.deepEqual(sortedArray.array, expectedOutput);
   });
 
+  it('should find element in array', function () {
+    let input = [1, 7, 4, 2, 0, 9, 7];
+    let expectedOutput = [0, 1, 2, 4, 7, 7, 9];
+    let sortedArray = new SortedArray({array: input});
+
+    assert.deepEqual(sortedArray.array, expectedOutput);
+
+    assert.equal(sortedArray.find(4), 3);
+    assert.equal(sortedArray.find(5), -1);
+    assert.equal(sortedArray.find(5, false), 4);
+  });
+
   it('should work with empty array', function () {
     let input = [];
     let expectedOutput = [];
