@@ -1,7 +1,7 @@
 {
   "name": "m-sorted-array",
-  "version": "0.0.0",
-  "description": "",
+  "version": "0.0.1",
+  "description": "Implementation of insert sort",
   "homepage": "",
   "author": {
     "name": "Mieszko4",
