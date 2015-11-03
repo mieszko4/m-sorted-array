@@ -2,6 +2,17 @@ import assert from 'assert';
 import SortedArray from '../lib';
 
 describe('m-sorted-array', function () {
+  it('should insert elements in array', function () {
+    let expectedOutput = [3, 6, 7];
+
+    let sortedArray = new SortedArray();
+    sortedArray.insert(6);
+    sortedArray.insert(3);
+    sortedArray.insert(7);
+
+    assert.deepEqual(sortedArray.array, expectedOutput);
+  });
+
   it('should work with empty array', function () {
     let input = [];
     let expectedOutput = [];
