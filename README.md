@@ -1,5 +1,5 @@
 # m-sorted-array [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
-> Implementation of insert sort
+> Implementation of insert, find and remove of sorted array
 
 
 ## Install
@@ -25,7 +25,10 @@ console.log(sortedArray.find(4)); // -1
 
 var strict = false;
 console.log(sortedArray.find(4, strict)); // 3
-```
+
+sortedArray.remove(2); // true
+sortedArray.remove(2); // false
+console.log(sortedArray.array); // [1, 3, 5, 8, 9]
 
 ## License
 

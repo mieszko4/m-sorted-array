@@ -25,6 +25,17 @@ describe('m-sorted-array', function () {
     assert.equal(sortedArray.find(5, false), 4);
   });
 
+  it('should remove element from array', function () {
+    let input = [1, 7, 4, 2, 0, 9, 7];
+    let expectedOutput = [0, 1, 4, 7, 9];
+    let sortedArray = new SortedArray({array: input});
+
+    assert(sortedArray.remove(7));
+    assert(sortedArray.remove(2));
+    assert(!sortedArray.remove(2));
+    assert.deepEqual(sortedArray.array, expectedOutput);
+  });
+
   it('should work with empty array', function () {
     let input = [];
     let expectedOutput = [];
