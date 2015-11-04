@@ -17,7 +17,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://mieszko4@bitbucket.org/mieszko4/node-m-sorted-array.git"
+    "url": "https://github.com/mieszko4/m-sorted-array.git"
   },
   "devDependencies": {
     "gulp": "^3.6.0",
@@ -27,6 +27,7 @@
     "gulp-mocha": "^2.0.0",
     "gulp-plumber": "^1.0.0",
     "gulp-nsp": "^2.1.0",
+    "gulp-coveralls": "^0.1.0",
     "gulp-babel": "^5.1.0",
     "del": "^2.0.2",
     "babel-core": "^5.5.0",

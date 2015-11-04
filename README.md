@@ -1,4 +1,4 @@
-# m-sorted-array [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
+# m-sorted-array [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
 > Implementation of insert, find and remove of sorted array
 
 
@@ -41,3 +41,5 @@ Apache-2.0 © [Mieszko4]()
 [travis-url]: https://travis-ci.org//m-sorted-array
 [daviddm-image]: https://david-dm.org//m-sorted-array.svg?theme=shields.io
 [daviddm-url]: https://david-dm.org//m-sorted-array
+[coveralls-image]: https://coveralls.io/repos/mieszko4/m-sorted-array/badge.svg
+[coveralls-url]: https://coveralls.io/r/mieszko4/m-sorted-array
