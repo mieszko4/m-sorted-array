@@ -41,6 +41,6 @@ Apache-2.0 © [Mieszko4]()
 [travis-image]: https://travis-ci.org/mieszko4/m-sorted-array.svg?branch=master
 [travis-url]: https://travis-ci.org/mieszko4/m-sorted-array
 [daviddm-image]: https://david-dm.org/mieszko4/m-sorted-array.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org//m-sorted-array
+[daviddm-url]: https://david-dm.org/mieszko4/m-sorted-array
 [coveralls-image]: https://coveralls.io/repos/mieszko4/m-sorted-array/badge.svg
 [coveralls-url]: https://coveralls.io/r/mieszko4/m-sorted-array
