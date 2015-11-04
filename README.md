@@ -29,6 +29,7 @@ console.log(sortedArray.find(4, strict)); // 3
 sortedArray.remove(2); // true
 sortedArray.remove(2); // false
 console.log(sortedArray.array); // [1, 3, 5, 8, 9]
+```
 
 ## License
 
