@@ -38,9 +38,9 @@ Apache-2.0 © [Mieszko4]()
 
 [npm-image]: https://badge.fury.io/js/m-sorted-array.svg
 [npm-url]: https://npmjs.org/package/m-sorted-array
-[travis-image]: https://travis-ci.org//m-sorted-array.svg?branch=master
+[travis-image]: https://travis-ci.org/mieszko4/m-sorted-array.svg?branch=master
 [travis-url]: https://travis-ci.org//m-sorted-array
-[daviddm-image]: https://david-dm.org//m-sorted-array.svg?theme=shields.io
+[daviddm-image]: https://david-dm.org/mieszko4/m-sorted-array.svg?theme=shields.io
 [daviddm-url]: https://david-dm.org//m-sorted-array
 [coveralls-image]: https://coveralls.io/repos/mieszko4/m-sorted-array/badge.svg
 [coveralls-url]: https://coveralls.io/r/mieszko4/m-sorted-array
