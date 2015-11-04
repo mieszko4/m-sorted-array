@@ -3,7 +3,7 @@ var eslint = require('gulp-eslint');
 var excludeGitignore = require('gulp-exclude-gitignore');
 var mocha = require('gulp-mocha');
 var istanbul = require('gulp-istanbul');
-var nsp = require('gulp-nsp');
+var gulpNSP = require('gulp-nsp');
 var plumber = require('gulp-plumber');
 var babel = require('gulp-babel');
 var del = require('del');
@@ -22,7 +22,7 @@ gulp.task('static', function () {
 });
 
 gulp.task('nsp', function (cb) {
-  nsp('package.json', cb);
+  gulpNSP({package: __dirname + '/package.json'}, cb);
 });
 
 gulp.task('pre-test', function () {
